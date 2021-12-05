@@ -1,5 +1,9 @@
 package days
 
+/**
+ * Advent of Code 2021, Day 1 - Sonar Sweep
+ * Problem Description: http://adventofcode.com/2021/day/1
+ */
 class Day1 : Day(1) {
 
     override fun partOne(): Any {

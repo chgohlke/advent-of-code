@@ -1,5 +1,9 @@
 package days
 
+/**
+ * Advent of Code 2021, Day 3 - Binary Diagnostic
+ * Problem Description: http://adventofcode.com/2021/day/3
+ */
 class Day3 : Day(3) {
 
     override fun partOne(): Any {

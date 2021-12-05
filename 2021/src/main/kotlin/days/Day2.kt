@@ -5,7 +5,10 @@ class Forward(x: Int): Command(x)
 class Down(x: Int):Command(x)
 class Up(x: Int): Command(x)
 
-
+/**
+ * Advent of Code 2021, Day 2 - Dive!
+ * Problem Description: http://adventofcode.com/2021/day/2
+ */
 class Day2 : Day(2) {
 
     override fun partOne(): Any {
