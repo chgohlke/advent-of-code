@@ -6,8 +6,8 @@ import kotlin.math.abs
  * Advent of Code 2021, Day 7 - The Treachery of Whales
  * Problem Description: http://adventofcode.com/2021/day/7
  *
- * Result Part 1: 351901
- * Result Part 2:
+ * Result Part 1: 351901     (76.154053ms)
+ * Result Part 2: 101079875  (28.657196ms)
  */
 class Day7 : Day(7) {
 
@@ -31,7 +31,8 @@ class Day7 : Day(7) {
                 var distance = abs(possibleTargetPosition - position)
 
                 if (!constantFuelRate) {
-                  distance = (1 until distance + 1).sum()
+                    val gaussSum = ((1 + distance) * distance) / 2
+                    distance = gaussSum
                 }
 
                 possibleFuel[possibleTargetPosition] = possibleFuel[possibleTargetPosition] + distance
