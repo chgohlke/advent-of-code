@@ -3,6 +3,9 @@ package days
 /**
  * Advent of Code 2021, Day 1 - Sonar Sweep
  * Problem Description: http://adventofcode.com/2021/day/1
+ *
+ * Part 1: 1475      (37.582259ms)
+ * Part 2: 1516      (3.366222ms)
  */
 class Day1 : Day(1) {
 

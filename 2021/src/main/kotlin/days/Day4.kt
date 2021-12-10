@@ -7,6 +7,9 @@ class Bingo(val rows: MutableList<Row>, var position: Int = -1, var lastMarkedNu
 /**
  * Advent of Code 2021, Day 4 - Giant Squid
  * Problem Description: http://adventofcode.com/2021/day/4
+ *
+ * Part 1: 50008      (133.119998ms)
+ * Part 2: 17408      (26.587793ms)
  */
 class Day4 : Day(4) {
 

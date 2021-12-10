@@ -3,6 +3,9 @@ package days
 /**
  * Advent of Code 2021, Day 3 - Binary Diagnostic
  * Problem Description: http://adventofcode.com/2021/day/3
+ *
+ * Part 1: 3895776      (35.995485ms)
+ * Part 2: 7928162      (3.292849ms)
  */
 class Day3 : Day(3) {
 

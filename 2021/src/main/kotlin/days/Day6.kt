@@ -3,6 +3,9 @@ package days
 /**
  * Advent of Code 2021, Day 6 - Lanternfish
  * Problem Description: http://adventofcode.com/2021/day/6
+ *
+ * Part 1: 375482             (61.579978ms)
+ * Part 2: 1689540415957      (952.585us)
  */
 class Day6 : Day(6) {
 

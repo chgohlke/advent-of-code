@@ -8,6 +8,9 @@ class Up(x: Int): Command(x)
 /**
  * Advent of Code 2021, Day 2 - Dive!
  * Problem Description: http://adventofcode.com/2021/day/2
+ *
+ * Part 1: 1480518         (40.854381ms)
+ * Part 2: 1282809906      (1.347200ms)
  */
 class Day2 : Day(2) {
 

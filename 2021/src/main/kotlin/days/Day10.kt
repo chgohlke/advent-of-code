@@ -1,7 +1,7 @@
 package days
 
 /**
- * Advent of Code 2021, Day 10 -
+ * Advent of Code 2021, Day 10 - Syntax Scoring
  * Problem Description: http://adventofcode.com/2021/day/10
  *
  * Part 1: 344193          (27.013864ms)

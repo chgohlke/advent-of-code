@@ -10,6 +10,9 @@ data class Diagram(val lines: List<Line>, val maxX: Int, val maxY: Int)
 /**
  * Advent of Code 2021, Day 5 - Hydrothermal Venture
  * Problem Description: http://adventofcode.com/2021/day/5
+ *
+ * Part 1: 5145        (60.424101ms)
+ * Part 2: unresolved  (4.627us)
  */
 class Day5 : Day(5) {
 
